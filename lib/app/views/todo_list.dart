@@ -4,16 +4,13 @@ import 'package:todo_app/app/components/header.dart';
 import 'package:todo_app/app/components/list_view_todos.dart';
 
 class TodoList extends StatefulWidget {
-  final String title;
-  const TodoList({Key? key, required this.title}) : super(key: key);
+  const TodoList({Key? key,}) : super(key: key);
 
   @override
   State<StatefulWidget> createState() => TodoListState();
 }
 
 class TodoListState extends State<TodoList> {
-  bool isActive = false;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

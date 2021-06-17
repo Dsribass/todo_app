@@ -15,7 +15,7 @@ class TodoApp extends StatelessWidget {
         brightness: Brightness.light
       ),
       routes: {
-        '/': (context) => TodoList(title:appName),
+        '/': (context) => TodoList(),
         '/add': (context) => AddTodo(),
       },
     );

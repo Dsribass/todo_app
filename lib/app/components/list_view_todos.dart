@@ -12,7 +12,7 @@ class _ListViewTodosState extends State<ListViewTodos> {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<QuerySnapshot>(
-      stream: FirebaseFirestore.instance.collection('todo').snapshots(),
+      stream: FirebaseFirestore.instance.collection('todo').orderBy("is_checked",descending: true).snapshots(),
       builder: (context, snapshot) {
         if (snapshot.hasError) {
           return Center(child: Text("Erro: ${snapshot.error}"));
