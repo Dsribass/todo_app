@@ -2,7 +2,7 @@
 
 <br>
 
-Aplicativo Todo List desenvolvido em [Flutter](https://flutter.dev/docs/get-started/install). Para o desenvolvimento desse aplicativo, estudei a linguagem Dart e o Flutter. Nunca tinha desenvolvido um app antes, porem já havia tido uma breve experiência com o Kotlin, fazendo uma simples UI em xml.
+Aplicativo Todo List desenvolvido em [Flutter](https://flutter.dev/docs/get-started/install). Para o desenvolvimento desse aplicativo, estudei a linguagem Dart e o Flutter. Essa foi minha primeira experiência com desenvolvimento mobile.
 
 <br>
 
